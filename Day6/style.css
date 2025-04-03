@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   background-color: #000000;
+   font-family: Arial, sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.instalogo{
+    text-align: center;
+    inline-size: 250px;
+    block-size: 70px;    
+    margin-block: 30px;
+}
+.form{
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(255,255,255,0.2);
+    text-align: center;
+    inline-size: 400px;
+    padding: 20px;
+    color: white;
+}
+.form input{
+    all: unset;
+    display: flex;
+    background-color: rgba(101,99,99,0.3);
+    border: 1px solid  rgb(101,99,99);
+    border-radius: 3px;
+    padding: 10px;
+    margin-block: 10px;
+    text-align: left;
+    width: 100%;
+}
+.image{
+    align-content: center;
+    padding-block: 40px;
+    margin: 20px;
+}
+.image img{
+    padding: 50px;
+    block-size: 500px;
+}
+.btn{
+    all: unset;
+    text-align: center;
+    margin-block: 20px;
+    padding: 8px;
+    background-color: #0095F6;
+    border-radius: 5px;
+    width: 100%;
+}
+.btn:hover{
+    background-color: rgba(0,149,246,0.8);
+}
+.line{
+    border-top: 1px solid rgb(101,99,99,0.5);
+    position: relative;
+}
+.line button{
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    top: -15px;
+    left: 170px;
+    padding: 6px;
+}
+.logo i {
+    color: #0095F6;
+    font-size: 28px;  
+}
+.logo a{
+    color: #0095F6;
+    font-size: 18px;
+}
+.applogo{
+    background-color: transparent;
+    border: 1px solid rgb(101,99,99,0.3);
+}
+.logo{
+    margin-block-start: 30px;
+    margin-block-end: 20px;
+  }
+a{
+    text-decoration: none;
+    color: white;
+}
+.signUp a{
+    color: #0095F6;
+}
+.google{
+    inline-size: 120px;
+    block-size: 80px;
+}
+.microsoft{
+    inline-size: 100px;
+    block-size: 83px;
+}
+.signUp p{
+    margin-block: 50px;
+}
