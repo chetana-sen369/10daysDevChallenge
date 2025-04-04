@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(login-hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: sans-serif;
+    color: white;
+}
+.container{
+    background-color: rgba(255,255,255,0.1);
+    backdrop-filter: blur(8px);
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 30px 20px;
+    text-align: center;
+}
+h1{
+    margin: 20px;
+}
+.container input{
+    display: block;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    padding-inline: 10px;
+    padding-block: 5px;
+    font-size: 18px;
+    margin-block: 30px;
+    width: 100%;
+}
+::placeholder{
+    color: white;
+}
+button{
+    border: none;
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-block: 30px;
+}
+button:hover{
+    background-color:rgba(255, 255, 255, 0.8);
+}
+p{
+    margin-inline: 50px;
+    margin-bottom: 10px;
+}
